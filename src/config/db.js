@@ -1,21 +1,28 @@
-import mysql from "mysql2";
+import { Sequelize } from "sequelize";
 import dotenv from "dotenv";
+import logger from "./logger.js";
 
 dotenv.config();
 
-const pool = mysql.createPool({
-  host: process.env.DB_HOST || "localhost",
-  user: process.env.DB_USER || "root",
-  password: process.env.DB_PASS || "",
-  database: process.env.DB_NAME || "blog_api",
-});
-pool.getConnection((err, connection) => {
-  if (err) {
-    console.log(`DB connection failed : ${err}`);
-  } else {
-    console.log(`Connected to DB`);
-    connection.release();
+const sequelize = new Sequelize(
+  process.env.DB_NAME,
+  process.env.DB_USER,
+  process.env.DB_PASS,
+  {
+    host: process.env.DB_HOST,
+    dialect: "postgres",
+    logging: false,
   }
-});
-const db = pool.promise();
-export default db;
+);
+sequelize.sync({ force: false, alter: true });
+
+export const connectDB = async () => {
+  try {
+    await sequelize.authenticate();
+    logger.info("PostgreSQL connected successfully");
+  } catch (error) {
+    logger.error(`Database connection failed: ${error.message}`);
+    process.exit(1);
+  }
+};
+export default sequelize;

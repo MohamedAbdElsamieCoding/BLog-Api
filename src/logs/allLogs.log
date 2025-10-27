@@ -1,0 +1,16 @@
+2025-10-27 03:36:54 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-27 03:36:54 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-27 03:36:54 , [31merror[39m , [31mError syncing models SequelizeUniqueConstraintError: Validation error[39m
+2025-10-27 03:40:43 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-27 03:40:43 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-27 03:40:54 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-27 03:40:54 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-27 03:40:54 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-27 03:41:17 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-27 03:41:17 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-27 03:42:34 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-27 03:42:34 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-27 03:42:34 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-27 03:42:41 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-27 03:42:41 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-27 03:42:41 , [32minfo[39m , [32mAll models synced successfully[39m
