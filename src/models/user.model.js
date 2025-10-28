@@ -1,5 +1,6 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../config/db.js";
+import userRoles from "../utils/userRoles.js";
 
 const User = sequelize.define(
   "User",
@@ -26,8 +27,8 @@ const User = sequelize.define(
       allowNull: false,
     },
     role: {
-      type: DataTypes.ENUM("ADMIN", "USER"),
-      defaultValue: "USER",
+      type: DataTypes.ENUM(userRoles.ADMIN, userRoles.USER),
+      defaultValue: userRoles.USER,
     },
   },
   { timestamps: true }

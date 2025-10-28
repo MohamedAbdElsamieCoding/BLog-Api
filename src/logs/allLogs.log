@@ -14,3 +14,874 @@
 2025-10-27 03:42:41 , [32minfo[39m , [32mServer is running on port 5000[39m
 2025-10-27 03:42:41 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
 2025-10-27 03:42:41 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:34:50 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:34:51 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:34:51 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:45:17 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:45:17 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:45:18 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 03:47:10 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:47:10 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:47:10 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:47:21 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:47:21 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:47:22 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 03:47:24 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:47:24 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:48:19 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:48:19 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:48:19 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:50:11 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:50:11 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:50:11 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:51:34 , [31merror[39m , [31mno id randomUUID is not defined , POST , /api/users/register[39m
+[31mReferenceError: randomUUID is not defined[39m
+[31m    at requestLogger (file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/requestLogger.js:6:21)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at trimPrefix (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:342:13)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:297:9[39m
+[31m    at processParams (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:291:5)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\body-parser\lib\read.js:132:5[39m
+[31m    at AsyncResource.runInAsyncScope (node:async_hooks:213:14)[39m
+[31m    at invokeCallback (D:\NodeJS Course\learn\BlogApi\node_modules\raw-body\index.js:238:16)[39m
+[31m    at done (D:\NodeJS Course\learn\BlogApi\node_modules\raw-body\index.js:227:7)[39m
+2025-10-28 03:52:49 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:52:49 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:52:50 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:53:04 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:53:04 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:53:04 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:53:49 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:53:50 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:53:50 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:53:53 , [35mhttp[39m , [35m[407d040e-44f0-4a0b-bb08-d6291892c213] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 03:53:53 , [31merror[39m , [31m[407d040e-44f0-4a0b-bb08-d6291892c213] Completed -> POST /api/users/register | Error (400) | 7ms[39m
+2025-10-28 03:54:04 , [35mhttp[39m , [35m[8d8abd8c-cd61-468d-9b80-ed931b0d3b31] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 03:54:04 , [31merror[39m , [31m[8d8abd8c-cd61-468d-9b80-ed931b0d3b31] Completed -> POST /api/users/register | Error (400) | 2ms[39m
+2025-10-28 03:54:05 , [35mhttp[39m , [35m[6dbf7a04-052b-44a8-9c04-f665e4eb761a] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 03:54:05 , [31merror[39m , [31m[6dbf7a04-052b-44a8-9c04-f665e4eb761a] Completed -> POST /api/users/register | Error (400) | 2ms[39m
+2025-10-28 03:54:11 , [35mhttp[39m , [35m[802881df-9cae-47f4-a3f5-2175faf5639f] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 03:54:11 , [31merror[39m , [31m[802881df-9cae-47f4-a3f5-2175faf5639f] Completed -> POST /api/users/register | Error (400) | 1ms[39m
+2025-10-28 03:54:33 , [35mhttp[39m , [35m[e195a006-7b2e-4f8f-ae24-6c8daf7aebea] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 03:54:33 , [31merror[39m , [31m[e195a006-7b2e-4f8f-ae24-6c8daf7aebea] Completed -> POST /api/users/register | Error (400) | 1ms[39m
+2025-10-28 03:54:41 , [35mhttp[39m , [35m[4e7a1d74-df39-4e3c-a6ed-d6b8c0a07ae0] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 03:54:41 , [31merror[39m , [31m[4e7a1d74-df39-4e3c-a6ed-d6b8c0a07ae0] Completed -> POST /api/users/register | Error (400) | 2ms[39m
+2025-10-28 03:55:16 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:55:16 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:55:16 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 03:55:20 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:55:20 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:55:20 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:55:23 , [35mhttp[39m , [35m[5faf6477-d80d-4931-ba49-da4f45d04a73] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 03:55:23 , [31merror[39m , [31m5faf6477-d80d-4931-ba49-da4f45d04a73 invalid input value for enum "enum_Users_role": "user" , POST , /api/users/register[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at async PostgresQueryInterface.insert (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async model.save (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async User.create (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/user.controller.js:12:19[39m
+2025-10-28 03:55:23 , [31merror[39m , [31m[5faf6477-d80d-4931-ba49-da4f45d04a73] Completed -> POST /api/users/register | Error (500) | 143ms[39m
+2025-10-28 03:55:44 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:55:44 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:55:44 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 03:56:15 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:56:15 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:56:15 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 03:56:45 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:56:45 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:56:45 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:57:24 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:57:24 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:57:24 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:57:25 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:57:25 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:57:26 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:57:35 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:57:35 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:57:35 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 03:57:39 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:57:39 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:57:40 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 03:57:54 , [35mhttp[39m , [35m[3c72ed5d-b451-419f-8ade-3f565b291eb3] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 03:57:54 , [35mhttp[39m , [35m[3c72ed5d-b451-419f-8ade-3f565b291eb3] Completed -> POST /api/users/register | Success (201) | 255ms[39m
+2025-10-28 03:59:12 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 03:59:12 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 03:59:13 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 04:03:56 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:03:56 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:03:56 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 04:15:16 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:15:16 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:15:16 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 04:15:19 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:15:19 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:15:19 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 04:15:30 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:15:30 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:15:30 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 04:15:45 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:15:45 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:15:45 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 04:16:37 , [35mhttp[39m , [35m[95827bbc-120f-44f9-9fcf-a9b1fc27cace] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 04:16:37 , [31merror[39m , [31m95827bbc-120f-44f9-9fcf-a9b1fc27cace Cannot destructure property 'email' of 'req.body' as it is undefined. , POST , /api/users/login[39m
+[31mTypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/user.controller.js:23:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:291:5)[39m
+2025-10-28 04:16:37 , [31merror[39m , [31m[95827bbc-120f-44f9-9fcf-a9b1fc27cace] Completed -> POST /api/users/login | Error (500) | 9ms[39m
+2025-10-28 04:17:00 , [35mhttp[39m , [35m[e5dc3d98-5222-48f1-90b2-5a662884b50d] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 04:17:00 , [31merror[39m , [31me5dc3d98-5222-48f1-90b2-5a662884b50d Cannot destructure property 'email' of 'req.body' as it is undefined. , POST , /api/users/login[39m
+[31mTypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/user.controller.js:23:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:291:5)[39m
+2025-10-28 04:17:00 , [31merror[39m , [31m[e5dc3d98-5222-48f1-90b2-5a662884b50d] Completed -> POST /api/users/login | Error (500) | 3ms[39m
+2025-10-28 04:17:14 , [35mhttp[39m , [35m[645e1569-02f8-4196-9956-5e27f184218a] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 04:17:14 , [31merror[39m , [31m645e1569-02f8-4196-9956-5e27f184218a Cannot destructure property 'email' of 'req.body' as it is undefined. , POST , /api/users/login[39m
+[31mTypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/user.controller.js:23:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:291:5)[39m
+2025-10-28 04:17:14 , [31merror[39m , [31m[645e1569-02f8-4196-9956-5e27f184218a] Completed -> POST /api/users/login | Error (500) | 3ms[39m
+2025-10-28 04:17:15 , [35mhttp[39m , [35m[a9f84db4-2297-452b-962d-cce1fef891f8] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 04:17:15 , [31merror[39m , [31ma9f84db4-2297-452b-962d-cce1fef891f8 Cannot destructure property 'email' of 'req.body' as it is undefined. , POST , /api/users/login[39m
+[31mTypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/user.controller.js:23:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:291:5)[39m
+2025-10-28 04:17:15 , [31merror[39m , [31m[a9f84db4-2297-452b-962d-cce1fef891f8] Completed -> POST /api/users/login | Error (500) | 2ms[39m
+2025-10-28 04:18:29 , [35mhttp[39m , [35m[2f7aa2c4-a8c1-473d-9ffb-d2d51726a061] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 04:18:29 , [35mhttp[39m , [35m[2f7aa2c4-a8c1-473d-9ffb-d2d51726a061] Completed -> POST /api/users/login | Success (200) | 163ms[39m
+2025-10-28 04:22:11 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:22:11 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:24:47 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:24:47 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:24:47 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 04:26:07 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:26:07 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:26:07 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 04:26:09 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:26:09 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:26:09 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 04:26:16 , [35mhttp[39m , [35m[5c83a179-5c97-4436-90af-82a72caa2aa1] incoming -> GET , /api/users/ from ::1[39m
+2025-10-28 04:26:16 , [35mhttp[39m , [35m[5c83a179-5c97-4436-90af-82a72caa2aa1] Completed -> GET /api/users/ | Success (200) | 14ms[39m
+2025-10-28 04:28:07 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:28:07 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:50:27 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:50:27 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:50:27 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 04:51:39 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:51:40 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:51:40 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 04:52:16 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:52:16 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:52:16 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 04:53:56 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:53:56 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:53:56 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 04:57:43 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:57:43 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:57:44 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 04:57:51 , [35mhttp[39m , [35m[de5b2d01-1cf1-4b0c-8b12-e9e294624df5] incoming -> GET , /api/users/ from ::1[39m
+2025-10-28 04:57:51 , [35mhttp[39m , [35m[de5b2d01-1cf1-4b0c-8b12-e9e294624df5] Completed -> GET /api/users/ | Success (200) | 11ms[39m
+2025-10-28 04:57:59 , [35mhttp[39m , [35m[1cfeadc7-7e80-4cd0-9133-385c81615d53] incoming -> GET , /api/users/d50e8cd6-672a-4523-9efc-b73c2acf99b2 from ::1[39m
+2025-10-28 04:57:59 , [31merror[39m , [31m[1cfeadc7-7e80-4cd0-9133-385c81615d53] Completed -> GET /api/users/d50e8cd6-672a-4523-9efc-b73c2acf99b2 | Error (404) | 3ms[39m
+2025-10-28 04:59:20 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:59:20 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:59:27 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 04:59:27 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 04:59:28 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 04:59:31 , [35mhttp[39m , [35m[5ec07b6b-e826-46d4-8768-f4f3101b76f4] incoming -> GET , /api/users/d50e8cd6-672a-4523-9efc-b73c2acf99b2 from ::1[39m
+2025-10-28 04:59:31 , [35mhttp[39m , [35m[5ec07b6b-e826-46d4-8768-f4f3101b76f4] Completed -> GET /api/users/d50e8cd6-672a-4523-9efc-b73c2acf99b2 | Success (200) | 13ms[39m
+2025-10-28 04:59:54 , [35mhttp[39m , [35m[66c595fc-dbbc-49be-a041-b67e8158f668] incoming -> GET , /api/users/d50e8cd6-672a-4523-9efc-b73c2acf9 from ::1[39m
+2025-10-28 04:59:54 , [31merror[39m , [31m66c595fc-dbbc-49be-a041-b67e8158f668 invalid input syntax for type uuid: "d50e8cd6-672a-4523-9efc-b73c2acf9" , GET , /api/users/d50e8cd6-672a-4523-9efc-b73c2acf9[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async User.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async User.findOne (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async User.findByPk (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/user.controller.js:53:16[39m
+2025-10-28 04:59:54 , [31merror[39m , [31m[66c595fc-dbbc-49be-a041-b67e8158f668] Completed -> GET /api/users/d50e8cd6-672a-4523-9efc-b73c2acf9 | Error (500) | 158ms[39m
+2025-10-28 05:00:03 , [35mhttp[39m , [35m[6663624c-c52d-450f-8746-855f0b591999] incoming -> GET , /api/users/d50e8cd6-672a-4523-9efc-b73c2acf99b2 from ::1[39m
+2025-10-28 05:00:03 , [35mhttp[39m , [35m[6663624c-c52d-450f-8746-855f0b591999] Completed -> GET /api/users/d50e8cd6-672a-4523-9efc-b73c2acf99b2 | Success (200) | 30ms[39m
+2025-10-28 05:00:11 , [35mhttp[39m , [35m[8fb0594e-fa14-444c-975d-4149ed4eb499] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 05:00:11 , [35mhttp[39m , [35m[8fb0594e-fa14-444c-975d-4149ed4eb499] Completed -> POST /api/users/register | Success (201) | 90ms[39m
+2025-10-28 05:00:19 , [35mhttp[39m , [35m[8172c97a-f850-42e3-ba63-e208f5977c64] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 05:00:19 , [35mhttp[39m , [35m[8172c97a-f850-42e3-ba63-e208f5977c64] Completed -> POST /api/users/login | Success (200) | 73ms[39m
+2025-10-28 05:00:24 , [35mhttp[39m , [35m[db9f456d-5d6e-45f7-a510-db8c12d6963d] incoming -> GET , /api/users/ from ::1[39m
+2025-10-28 05:00:24 , [35mhttp[39m , [35m[db9f456d-5d6e-45f7-a510-db8c12d6963d] Completed -> GET /api/users/ | Success (200) | 3ms[39m
+2025-10-28 05:01:03 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:01:03 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:01:35 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:01:35 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:01:35 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:01:38 , [35mhttp[39m , [35m[fc22fb18-00bf-4428-8aad-4171c624711e] incoming -> GET , /api/users/ from ::1[39m
+2025-10-28 05:01:38 , [35mhttp[39m , [35m[fc22fb18-00bf-4428-8aad-4171c624711e] Completed -> GET /api/users/ | Success (200) | 12ms[39m
+2025-10-28 05:02:13 , [35mhttp[39m , [35m[f3c7b2b0-e1a7-49ba-b7f3-dcd757924fa1] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 05:02:13 , [31merror[39m , [31m[f3c7b2b0-e1a7-49ba-b7f3-dcd757924fa1] Completed -> POST /api/users/register | Error (400) | 77ms[39m
+2025-10-28 05:02:35 , [35mhttp[39m , [35m[78741c4b-2811-472d-881a-bf2b56b6bd62] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 05:02:35 , [35mhttp[39m , [35m[78741c4b-2811-472d-881a-bf2b56b6bd62] Completed -> POST /api/users/register | Success (201) | 264ms[39m
+2025-10-28 05:03:13 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:03:13 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:03:14 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 05:03:16 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:03:16 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:03:21 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:03:21 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:03:39 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:03:39 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:03:40 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:03:48 , [35mhttp[39m , [35m[63260cd1-446f-4319-8b9a-083c59d2a5c8] incoming -> POST , /api/users/register from ::1[39m
+2025-10-28 05:03:48 , [31merror[39m , [31m[63260cd1-446f-4319-8b9a-083c59d2a5c8] Completed -> POST /api/users/register | Error (400) | 13ms[39m
+2025-10-28 05:04:01 , [35mhttp[39m , [35m[b9514e3f-cb4b-4180-94b4-71d4c6890f2a] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 05:04:01 , [35mhttp[39m , [35m[b9514e3f-cb4b-4180-94b4-71d4c6890f2a] Completed -> POST /api/users/login | Success (200) | 149ms[39m
+2025-10-28 05:04:08 , [35mhttp[39m , [35m[06b21a37-bdf1-4f48-ab31-9a181145d96c] incoming -> GET , /api/users/ from ::1[39m
+2025-10-28 05:04:08 , [35mhttp[39m , [35m[06b21a37-bdf1-4f48-ab31-9a181145d96c] Completed -> GET /api/users/ | Success (200) | 4ms[39m
+2025-10-28 05:04:17 , [35mhttp[39m , [35m[355fc358-e5d9-476b-b653-c007ccaf9450] incoming -> GET , /api/users/cde6be84-5b3d-4423-9485-69bfb060a36b from ::1[39m
+2025-10-28 05:04:17 , [35mhttp[39m , [35m[355fc358-e5d9-476b-b653-c007ccaf9450] Completed -> GET /api/users/cde6be84-5b3d-4423-9485-69bfb060a36b | Success (200) | 4ms[39m
+2025-10-28 05:07:00 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:07:00 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:07:01 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 05:07:59 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:07:59 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:07:59 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 05:08:31 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:08:31 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:08:31 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:09:54 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:09:54 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:09:54 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 05:09:57 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:09:57 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:10:00 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:10:00 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:10:00 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:10:41 , [35mhttp[39m , [35m[987b7d40-e641-4708-b60d-4a550c2390ce] incoming -> DELETE , /api/users/ from ::1[39m
+2025-10-28 05:10:41 , [31merror[39m , [31m[987b7d40-e641-4708-b60d-4a550c2390ce] Completed -> DELETE /api/users/ | Error (404) | 5ms[39m
+2025-10-28 05:10:47 , [35mhttp[39m , [35m[1b7193ca-ffd1-4d9a-a89f-de7f4c0ebe6a] incoming -> GET , /api/users/ from ::1[39m
+2025-10-28 05:10:47 , [35mhttp[39m , [35m[1b7193ca-ffd1-4d9a-a89f-de7f4c0ebe6a] Completed -> GET /api/users/ | Success (200) | 86ms[39m
+2025-10-28 05:10:54 , [35mhttp[39m , [35m[2ca9a3b7-72b0-40cd-a526-cf0a4bb7236f] incoming -> DELETE , /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b from ::1[39m
+2025-10-28 05:10:54 , [31merror[39m , [31m2ca9a3b7-72b0-40cd-a526-cf0a4bb7236f Expected plain object, array or sequelize method in the options.where parameter of model.destroy. , DELETE , /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b[39m
+[31mError: Expected plain object, array or sequelize method in the options.where parameter of model.destroy.[39m
+[31m    at User.destroy (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1806:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/user.controller.js:62:30[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:295:15[39m
+[31m    at param (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:600:14)[39m
+2025-10-28 05:10:54 , [31merror[39m , [31m[2ca9a3b7-72b0-40cd-a526-cf0a4bb7236f] Completed -> DELETE /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b | Error (500) | 4ms[39m
+2025-10-28 05:11:26 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:11:26 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:11:27 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:11:31 , [35mhttp[39m , [35m[b0eeaed0-5c00-489a-ba20-372b233142a6] incoming -> DELETE , /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b from ::1[39m
+2025-10-28 05:11:31 , [35mhttp[39m , [35m[b0eeaed0-5c00-489a-ba20-372b233142a6] Completed -> DELETE /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b | Success (200) | 13ms[39m
+2025-10-28 05:11:34 , [35mhttp[39m , [35m[807b7faf-9cac-454b-ada7-d205e067a326] incoming -> DELETE , /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b from ::1[39m
+2025-10-28 05:11:34 , [35mhttp[39m , [35m[807b7faf-9cac-454b-ada7-d205e067a326] Completed -> DELETE /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b | Success (200) | 4ms[39m
+2025-10-28 05:11:36 , [35mhttp[39m , [35m[cf800fc6-3791-488b-8a52-b649dacf4d8c] incoming -> DELETE , /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b from ::1[39m
+2025-10-28 05:11:36 , [35mhttp[39m , [35m[cf800fc6-3791-488b-8a52-b649dacf4d8c] Completed -> DELETE /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b | Success (200) | 3ms[39m
+2025-10-28 05:11:37 , [35mhttp[39m , [35m[216c1243-5e7a-4dd8-9afb-ed98b64879f1] incoming -> DELETE , /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b from ::1[39m
+2025-10-28 05:11:37 , [35mhttp[39m , [35m[216c1243-5e7a-4dd8-9afb-ed98b64879f1] Completed -> DELETE /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b | Success (200) | 3ms[39m
+2025-10-28 05:11:57 , [35mhttp[39m , [35m[06fbedc1-5aef-42e0-b9c6-95e5664c751b] incoming -> DELETE , /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b from ::1[39m
+2025-10-28 05:11:57 , [35mhttp[39m , [35m[06fbedc1-5aef-42e0-b9c6-95e5664c751b] Completed -> DELETE /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b | Success (200) | 193ms[39m
+2025-10-28 05:12:01 , [35mhttp[39m , [35m[726ffc34-c3a1-468a-ad21-ce48fbf4f2a4] incoming -> DELETE , /api/users/ from ::1[39m
+2025-10-28 05:12:01 , [31merror[39m , [31m[726ffc34-c3a1-468a-ad21-ce48fbf4f2a4] Completed -> DELETE /api/users/ | Error (404) | 2ms[39m
+2025-10-28 05:12:04 , [35mhttp[39m , [35m[5e9cf2bd-5df3-4ac1-a855-5dfdd6ffe325] incoming -> DELETE , /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b from ::1[39m
+2025-10-28 05:12:04 , [35mhttp[39m , [35m[5e9cf2bd-5df3-4ac1-a855-5dfdd6ffe325] Completed -> DELETE /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b | Success (200) | 5ms[39m
+2025-10-28 05:12:18 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:12:18 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:12:18 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:12:23 , [35mhttp[39m , [35m[c0f7b52f-f982-44da-ba7c-6d818315a3e2] incoming -> DELETE , /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b from ::1[39m
+2025-10-28 05:12:23 , [31merror[39m , [31m[c0f7b52f-f982-44da-ba7c-6d818315a3e2] Completed -> DELETE /api/users/0a5ade8e-31be-48d7-9aca-5bb9d4b4c57b | Error (404) | 16ms[39m
+2025-10-28 05:12:29 , [35mhttp[39m , [35m[46eb0354-5a7c-4643-8f55-cb43d3b829bd] incoming -> GET , /api/users/ from ::1[39m
+2025-10-28 05:12:29 , [35mhttp[39m , [35m[46eb0354-5a7c-4643-8f55-cb43d3b829bd] Completed -> GET /api/users/ | Success (200) | 7ms[39m
+2025-10-28 05:13:19 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:13:19 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:13:19 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:13:24 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:13:24 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:13:25 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:13:43 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:13:43 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:13:44 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:15:22 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:15:22 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:15:23 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 05:19:26 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:19:26 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:19:26 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:21:30 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:21:30 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:21:31 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:23:17 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:23:18 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:23:20 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:23:20 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:23:20 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:23:26 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:23:26 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:23:26 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:26:22 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:26:22 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:26:22 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:26:38 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:26:39 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:26:39 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 05:27:53 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:27:53 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:27:54 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:28:19 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:28:19 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:30:24 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:30:24 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:30:27 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:30:27 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:30:27 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:31:36 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:31:36 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:31:37 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:33:37 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:33:37 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:33:37 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:34:34 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:34:34 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:34:35 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:36:28 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:36:28 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:36:28 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 05:38:17 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:38:17 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:38:18 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:38:51 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:38:51 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:38:52 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 05:39:10 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:39:10 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:39:12 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:39:12 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:39:13 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:40:04 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:40:04 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:40:06 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:40:06 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:40:19 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:40:19 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 05:40:20 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 05:40:52 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 05:40:52 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:02:57 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:02:57 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:03:10 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:03:10 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:03:10 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:03:44 , [35mhttp[39m , [35m[6b38614d-0476-4143-9694-65bf6c2b8748] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 06:03:44 , [35mhttp[39m , [35m[6b38614d-0476-4143-9694-65bf6c2b8748] Completed -> POST /api/users/login | Success (200) | 185ms[39m
+2025-10-28 06:04:36 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:04:36 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:04:37 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 06:06:08 , [35mhttp[39m , [35m[b055ff93-be10-4eb9-8934-a942ee748806] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:06:08 , [31merror[39m , [31m[b055ff93-be10-4eb9-8934-a942ee748806] Completed -> POST /api/posts/ | Error (404) | 4ms[39m
+2025-10-28 06:06:42 , [35mhttp[39m , [35m[8e281158-35f5-4201-915a-9e91afc6d638] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:06:42 , [31merror[39m , [31m[8e281158-35f5-4201-915a-9e91afc6d638] Completed -> POST /api/posts/ | Error (404) | 1ms[39m
+2025-10-28 06:07:08 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:07:09 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:07:11 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:07:11 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:07:11 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:07:13 , [35mhttp[39m , [35m[9a89ac32-83ba-4aae-af1a-1de9a651afe2] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:07:13 , [31merror[39m , [31m[9a89ac32-83ba-4aae-af1a-1de9a651afe2] Completed -> POST /api/posts/ | Error (404) | 4ms[39m
+2025-10-28 06:07:14 , [35mhttp[39m , [35m[56f0481c-25c0-4a47-9618-4a81a7fa467b] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:07:14 , [31merror[39m , [31m[56f0481c-25c0-4a47-9618-4a81a7fa467b] Completed -> POST /api/posts/ | Error (404) | 1ms[39m
+2025-10-28 06:10:30 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:10:30 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:10:33 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:10:33 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:10:37 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:10:37 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:11:32 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:11:32 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:11:32 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:11:36 , [35mhttp[39m , [35m[fe76e1d8-2581-4574-a13a-b82b8959326f] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:11:36 , [31merror[39m , [31mfe76e1d8-2581-4574-a13a-b82b8959326f Unauthorized , POST , /api/posts/[39m
+[31mError: Unauthorized[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:8:28[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:11:36 , [31merror[39m , [31m[fe76e1d8-2581-4574-a13a-b82b8959326f] Completed -> POST /api/posts/ | Error (401) | 11ms[39m
+2025-10-28 06:11:42 , [35mhttp[39m , [35m[d786b9e9-f24e-4537-9147-3c3655700352] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 06:11:42 , [35mhttp[39m , [35m[d786b9e9-f24e-4537-9147-3c3655700352] Completed -> POST /api/users/login | Success (200) | 79ms[39m
+2025-10-28 06:11:56 , [35mhttp[39m , [35m[855b9e75-086e-4d68-8ea2-abe752c07407] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:11:56 , [31merror[39m , [31m855b9e75-086e-4d68-8ea2-abe752c07407 Unauthorized , POST , /api/posts/[39m
+[31mError: Unauthorized[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:8:28[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:11:56 , [31merror[39m , [31m[855b9e75-086e-4d68-8ea2-abe752c07407] Completed -> POST /api/posts/ | Error (401) | 3ms[39m
+2025-10-28 06:11:57 , [35mhttp[39m , [35m[c24d6c80-1364-452e-9b2f-3d52d0b52bd9] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:11:57 , [31merror[39m , [31mc24d6c80-1364-452e-9b2f-3d52d0b52bd9 Unauthorized , POST , /api/posts/[39m
+[31mError: Unauthorized[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:8:28[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:11:57 , [31merror[39m , [31m[c24d6c80-1364-452e-9b2f-3d52d0b52bd9] Completed -> POST /api/posts/ | Error (401) | 2ms[39m
+2025-10-28 06:11:57 , [35mhttp[39m , [35m[933d149e-e967-4ecf-a90c-98b3ef263643] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:11:57 , [31merror[39m , [31m933d149e-e967-4ecf-a90c-98b3ef263643 Unauthorized , POST , /api/posts/[39m
+[31mError: Unauthorized[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:8:28[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:11:57 , [31merror[39m , [31m[933d149e-e967-4ecf-a90c-98b3ef263643] Completed -> POST /api/posts/ | Error (401) | 3ms[39m
+2025-10-28 06:12:37 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:12:37 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:12:38 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:12:44 , [35mhttp[39m , [35m[a892a8a8-f37f-4665-8963-80d4e099dee2] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:12:44 , [31merror[39m , [31ma892a8a8-f37f-4665-8963-80d4e099dee2 Unauthorized , POST , /api/posts/[39m
+[31mError: Unauthorized[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:8:28[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:12:44 , [31merror[39m , [31m[a892a8a8-f37f-4665-8963-80d4e099dee2] Completed -> POST /api/posts/ | Error (401) | 10ms[39m
+2025-10-28 06:12:45 , [35mhttp[39m , [35m[871289a2-f36b-4bc2-b39c-47278ec17e63] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:12:45 , [31merror[39m , [31m871289a2-f36b-4bc2-b39c-47278ec17e63 Unauthorized , POST , /api/posts/[39m
+[31mError: Unauthorized[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:8:28[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:12:45 , [31merror[39m , [31m[871289a2-f36b-4bc2-b39c-47278ec17e63] Completed -> POST /api/posts/ | Error (401) | 3ms[39m
+2025-10-28 06:12:46 , [35mhttp[39m , [35m[1d3fb927-a1ad-478a-85cd-eea47463410b] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:12:46 , [31merror[39m , [31m1d3fb927-a1ad-478a-85cd-eea47463410b Unauthorized , POST , /api/posts/[39m
+[31mError: Unauthorized[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:8:28[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:12:46 , [31merror[39m , [31m[1d3fb927-a1ad-478a-85cd-eea47463410b] Completed -> POST /api/posts/ | Error (401) | 3ms[39m
+2025-10-28 06:14:12 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:14:12 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:14:20 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:14:20 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:14:24 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:14:24 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:14:30 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:14:30 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:14:30 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 06:14:36 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:14:36 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:15:13 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:15:13 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:15:14 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:15:18 , [35mhttp[39m , [35m[c2c0d424-9da4-4736-9ffe-666bc70ea0d6] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:15:18 , [31merror[39m , [31mc2c0d424-9da4-4736-9ffe-666bc70ea0d6 Post.create is not a function , POST , /api/posts/[39m
+[31mTypeError: Post.create is not a function[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:10:30[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:15:18 , [31merror[39m , [31m[c2c0d424-9da4-4736-9ffe-666bc70ea0d6] Completed -> POST /api/posts/ | Error (500) | 10ms[39m
+2025-10-28 06:17:38 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:17:38 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:17:39 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 06:17:42 , [35mhttp[39m , [35m[1160f97e-3b65-4093-91c6-8a8470f670ec] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:17:42 , [35mhttp[39m , [35m[1160f97e-3b65-4093-91c6-8a8470f670ec] Completed -> POST /api/posts/ | Success (201) | 20ms[39m
+2025-10-28 06:19:34 , [35mhttp[39m , [35m[488cdff7-a86e-4041-8a2c-52cd5638abee] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:19:34 , [31merror[39m , [31m488cdff7-a86e-4041-8a2c-52cd5638abee Fields are required , POST , /api/posts/[39m
+[31mError: Fields are required[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:9:39[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:19:34 , [31merror[39m , [31m[488cdff7-a86e-4041-8a2c-52cd5638abee] Completed -> POST /api/posts/ | Error (500) | 3ms[39m
+2025-10-28 06:19:34 , [35mhttp[39m , [35m[9ade0e17-d7cc-4926-ab25-c69985a15daf] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:19:34 , [31merror[39m , [31m9ade0e17-d7cc-4926-ab25-c69985a15daf Fields are required , POST , /api/posts/[39m
+[31mError: Fields are required[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:9:39[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:19:34 , [31merror[39m , [31m[9ade0e17-d7cc-4926-ab25-c69985a15daf] Completed -> POST /api/posts/ | Error (500) | 2ms[39m
+2025-10-28 06:37:48 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:37:48 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:37:50 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:37:51 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:37:51 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:38:12 , [35mhttp[39m , [35m[2a549691-f05d-4ad8-8ef5-582e43ac2017] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:38:12 , [31merror[39m , [31m2a549691-f05d-4ad8-8ef5-582e43ac2017 Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:38:12 , [31merror[39m , [31m[2a549691-f05d-4ad8-8ef5-582e43ac2017] Completed -> POST /api/posts/ | Error (500) | 11ms[39m
+2025-10-28 06:38:25 , [35mhttp[39m , [35m[b1dd5e48-9c19-4b0e-8d58-5e4ad40f7539] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 06:38:25 , [35mhttp[39m , [35m[b1dd5e48-9c19-4b0e-8d58-5e4ad40f7539] Completed -> POST /api/users/login | Success (200) | 189ms[39m
+2025-10-28 06:38:42 , [35mhttp[39m , [35m[e19ca546-7634-483d-81b1-73e49ad40dde] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 06:38:42 , [35mhttp[39m , [35m[e19ca546-7634-483d-81b1-73e49ad40dde] Completed -> POST /api/users/login | Success (200) | 186ms[39m
+2025-10-28 06:39:23 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:39:23 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:39:25 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:39:25 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:39:26 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:39:28 , [35mhttp[39m , [35m[34c10eef-e112-4067-91ef-f8f12057dd5b] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:39:28 , [31merror[39m , [31m34c10eef-e112-4067-91ef-f8f12057dd5b Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:39:28 , [31merror[39m , [31m[34c10eef-e112-4067-91ef-f8f12057dd5b] Completed -> POST /api/posts/ | Error (500) | 13ms[39m
+2025-10-28 06:39:29 , [35mhttp[39m , [35m[50eaf61d-d824-47d1-affd-827ab4ae2dd5] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:39:29 , [31merror[39m , [31m50eaf61d-d824-47d1-affd-827ab4ae2dd5 Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:39:29 , [31merror[39m , [31m[50eaf61d-d824-47d1-affd-827ab4ae2dd5] Completed -> POST /api/posts/ | Error (500) | 3ms[39m
+2025-10-28 06:39:30 , [35mhttp[39m , [35m[9d6b591d-d022-4420-ae85-9cb8b2aaea12] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:39:30 , [31merror[39m , [31m9d6b591d-d022-4420-ae85-9cb8b2aaea12 Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:39:30 , [31merror[39m , [31m[9d6b591d-d022-4420-ae85-9cb8b2aaea12] Completed -> POST /api/posts/ | Error (500) | 3ms[39m
+2025-10-28 06:39:31 , [35mhttp[39m , [35m[0d71a048-603f-4c0b-a598-902665c427e5] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:39:31 , [31merror[39m , [31m0d71a048-603f-4c0b-a598-902665c427e5 Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:39:31 , [31merror[39m , [31m[0d71a048-603f-4c0b-a598-902665c427e5] Completed -> POST /api/posts/ | Error (500) | 3ms[39m
+2025-10-28 06:39:32 , [35mhttp[39m , [35m[b4ba2d79-820e-4a19-995d-6073915a01a4] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:39:32 , [31merror[39m , [31mb4ba2d79-820e-4a19-995d-6073915a01a4 Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:39:32 , [31merror[39m , [31m[b4ba2d79-820e-4a19-995d-6073915a01a4] Completed -> POST /api/posts/ | Error (500) | 3ms[39m
+2025-10-28 06:39:33 , [35mhttp[39m , [35m[7d8fb809-1858-4599-8c15-c2e8d05ee990] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:39:33 , [31merror[39m , [31m7d8fb809-1858-4599-8c15-c2e8d05ee990 Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:39:33 , [31merror[39m , [31m[7d8fb809-1858-4599-8c15-c2e8d05ee990] Completed -> POST /api/posts/ | Error (500) | 3ms[39m
+2025-10-28 06:39:35 , [35mhttp[39m , [35m[63a4a9f5-5dad-4def-9ad6-d26057c907ee] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:39:35 , [31merror[39m , [31m63a4a9f5-5dad-4def-9ad6-d26057c907ee Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:39:35 , [31merror[39m , [31m[63a4a9f5-5dad-4def-9ad6-d26057c907ee] Completed -> POST /api/posts/ | Error (500) | 3ms[39m
+2025-10-28 06:39:43 , [35mhttp[39m , [35m[d1152736-3d11-4d87-a84c-b1ecd30f500c] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 06:39:43 , [35mhttp[39m , [35m[d1152736-3d11-4d87-a84c-b1ecd30f500c] Completed -> POST /api/users/login | Success (200) | 202ms[39m
+2025-10-28 06:39:55 , [35mhttp[39m , [35m[5006ba52-9956-4060-9bfc-34038e35b105] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:39:55 , [31merror[39m , [31m5006ba52-9956-4060-9bfc-34038e35b105 Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:39:55 , [31merror[39m , [31m[5006ba52-9956-4060-9bfc-34038e35b105] Completed -> POST /api/posts/ | Error (500) | 3ms[39m
+2025-10-28 06:39:57 , [35mhttp[39m , [35m[745ec856-7daf-46b3-9791-432c2922f2d4] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:39:57 , [31merror[39m , [31m745ec856-7daf-46b3-9791-432c2922f2d4 Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/posts/[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:7:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/verifyToken.js:14:3[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\BlogApi\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\BlogApi\node_modules\router\index.js:435:11)[39m
+2025-10-28 06:39:57 , [31merror[39m , [31m[745ec856-7daf-46b3-9791-432c2922f2d4] Completed -> POST /api/posts/ | Error (500) | 3ms[39m
+2025-10-28 06:40:02 , [35mhttp[39m , [35m[a5ef1c9a-6fe3-4d30-8c40-e36472e02c80] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-28 06:40:02 , [35mhttp[39m , [35m[a5ef1c9a-6fe3-4d30-8c40-e36472e02c80] Completed -> GET /api/posts/ | Success (200) | 2ms[39m
+2025-10-28 06:40:08 , [35mhttp[39m , [35m[1ea98c82-1c2f-4ab5-8ab0-dd91f1a0f66d] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:40:09 , [35mhttp[39m , [35m[1ea98c82-1c2f-4ab5-8ab0-dd91f1a0f66d] Completed -> POST /api/posts/ | Success (201) | 81ms[39m
+2025-10-28 06:40:15 , [35mhttp[39m , [35m[03d45367-5c3c-4c0c-a4c7-6150e919ffe8] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-28 06:40:15 , [35mhttp[39m , [35m[03d45367-5c3c-4c0c-a4c7-6150e919ffe8] Completed -> GET /api/posts/ | Success (200) | 1ms[39m
+2025-10-28 06:40:16 , [35mhttp[39m , [35m[f2bfbee9-254c-448a-9a06-455390975219] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-28 06:40:16 , [35mhttp[39m , [35m[f2bfbee9-254c-448a-9a06-455390975219] Completed -> GET /api/posts/ | Success (200) | 1ms[39m
+2025-10-28 06:40:25 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:40:25 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:40:26 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:40:30 , [35mhttp[39m , [35m[930a0157-c0f0-4c78-aabd-bb3806ccacbf] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-28 06:40:30 , [35mhttp[39m , [35m[930a0157-c0f0-4c78-aabd-bb3806ccacbf] Completed -> GET /api/posts/ | Success (200) | 9ms[39m
+2025-10-28 06:40:31 , [35mhttp[39m , [35m[fda46bde-4b68-4ef2-b9f6-7826bf3bbc2d] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-28 06:40:31 , [35mhttp[39m , [35m[fda46bde-4b68-4ef2-b9f6-7826bf3bbc2d] Completed -> GET /api/posts/ | Success (200) | 2ms[39m
+2025-10-28 06:40:49 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:40:49 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:40:50 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:41:00 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:41:00 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:41:01 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:41:03 , [35mhttp[39m , [35m[133f5d97-316c-42a5-a085-f33f2ea2b739] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-28 06:41:03 , [35mhttp[39m , [35m[133f5d97-316c-42a5-a085-f33f2ea2b739] Completed -> GET /api/posts/ | Success (200) | 15ms[39m
+2025-10-28 06:41:23 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:41:24 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:41:24 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:43:45 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:43:45 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:43:46 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 06:44:34 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:44:34 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:44:35 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 06:45:17 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:45:17 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:45:18 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:45:44 , [35mhttp[39m , [35m[63b644da-c226-4986-b14e-bb028b3709d7] incoming -> POST , /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e from ::1[39m
+2025-10-28 06:45:44 , [31merror[39m , [31m[63b644da-c226-4986-b14e-bb028b3709d7] Completed -> POST /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e | Error (404) | 5ms[39m
+2025-10-28 06:45:54 , [35mhttp[39m , [35m[23edaa22-a70b-4cb5-96c7-1bad90f57e8a] incoming -> POST , /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e from ::1[39m
+2025-10-28 06:45:54 , [31merror[39m , [31m[23edaa22-a70b-4cb5-96c7-1bad90f57e8a] Completed -> POST /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e | Error (404) | 1ms[39m
+2025-10-28 06:45:58 , [35mhttp[39m , [35m[17434ed8-c6e0-43e3-9116-64e844d4d960] incoming -> GET , /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e from ::1[39m
+2025-10-28 06:45:58 , [35mhttp[39m , [35m[17434ed8-c6e0-43e3-9116-64e844d4d960] Completed -> GET /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e | Success (200) | 58ms[39m
+2025-10-28 06:46:08 , [35mhttp[39m , [35m[3a3f677d-aeff-4fa2-a9ef-ffc6742d51e6] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 06:46:08 , [35mhttp[39m , [35m[3a3f677d-aeff-4fa2-a9ef-ffc6742d51e6] Completed -> POST /api/posts/ | Success (201) | 120ms[39m
+2025-10-28 06:56:17 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:56:17 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:56:17 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 06:58:32 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:58:32 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:58:33 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 06:59:13 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:59:13 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:59:14 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 06:59:24 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 06:59:25 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 06:59:25 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 07:00:41 , [35mhttp[39m , [35m[43ec1ec9-51c9-4a97-87e1-31f02169b993] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 07:00:41 , [35mhttp[39m , [35m[43ec1ec9-51c9-4a97-87e1-31f02169b993] Completed -> POST /api/users/login | Success (200) | 200ms[39m
+2025-10-28 07:01:17 , [35mhttp[39m , [35m[b39527e3-9ce6-45cd-92f6-eeba316ea79b] incoming -> GET , /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e from ::1[39m
+2025-10-28 07:01:17 , [35mhttp[39m , [35m[b39527e3-9ce6-45cd-92f6-eeba316ea79b] Completed -> GET /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e | Success (200) | 142ms[39m
+2025-10-28 07:01:45 , [35mhttp[39m , [35m[6cab3989-0be8-4210-afe3-8483a98d96ca] incoming -> GET , /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e from ::1[39m
+2025-10-28 07:01:45 , [35mhttp[39m , [35m[6cab3989-0be8-4210-afe3-8483a98d96ca] Completed -> GET /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e | Success (200) | 55ms[39m
+2025-10-28 07:02:10 , [35mhttp[39m , [35m[9a04c8e1-b8ee-4ec2-b0bd-52b1e9c8ddd1] incoming -> PUT , /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e from ::1[39m
+2025-10-28 07:02:10 , [31merror[39m , [31m9a04c8e1-b8ee-4ec2-b0bd-52b1e9c8ddd1 Cannot read properties of undefined (reading 'id') , PUT , /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e[39m
+[31mTypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:45:39[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+2025-10-28 07:02:10 , [31merror[39m , [31m[9a04c8e1-b8ee-4ec2-b0bd-52b1e9c8ddd1] Completed -> PUT /api/posts/070aa047-6508-4985-b4d9-97a48e361a5e | Error (500) | 42ms[39m
+2025-10-28 07:02:30 , [35mhttp[39m , [35m[d6038184-b659-49e8-bd46-0fe0f02fff34] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 07:02:30 , [35mhttp[39m , [35m[d6038184-b659-49e8-bd46-0fe0f02fff34] Completed -> POST /api/users/login | Success (200) | 284ms[39m
+2025-10-28 07:02:55 , [35mhttp[39m , [35m[3db42c55-ba1f-48aa-841c-e133d55b976d] incoming -> POST , /api/posts/ from ::1[39m
+2025-10-28 07:02:55 , [35mhttp[39m , [35m[3db42c55-ba1f-48aa-841c-e133d55b976d] Completed -> POST /api/posts/ | Success (201) | 138ms[39m
+2025-10-28 07:03:21 , [35mhttp[39m , [35m[9d13ff07-8266-4a9c-abad-bd05fa03cf8d] incoming -> PUT , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f from ::1[39m
+2025-10-28 07:03:21 , [31merror[39m , [31m9d13ff07-8266-4a9c-abad-bd05fa03cf8d Cannot read properties of undefined (reading 'id') , PUT , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f[39m
+[31mTypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:45:39[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+2025-10-28 07:03:21 , [31merror[39m , [31m[9d13ff07-8266-4a9c-abad-bd05fa03cf8d] Completed -> PUT /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f | Error (500) | 45ms[39m
+2025-10-28 07:03:22 , [35mhttp[39m , [35m[1c8affc3-e13b-4280-8926-8604fcf54865] incoming -> PUT , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f from ::1[39m
+2025-10-28 07:03:22 , [31merror[39m , [31m1c8affc3-e13b-4280-8926-8604fcf54865 Cannot read properties of undefined (reading 'id') , PUT , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f[39m
+[31mTypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:45:39[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+2025-10-28 07:03:22 , [31merror[39m , [31m[1c8affc3-e13b-4280-8926-8604fcf54865] Completed -> PUT /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f | Error (500) | 4ms[39m
+2025-10-28 07:03:23 , [35mhttp[39m , [35m[b19f9e03-4387-4f40-8db1-ed32be60f479] incoming -> PUT , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f from ::1[39m
+2025-10-28 07:03:23 , [31merror[39m , [31mb19f9e03-4387-4f40-8db1-ed32be60f479 Cannot read properties of undefined (reading 'id') , PUT , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f[39m
+[31mTypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:45:39[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+2025-10-28 07:03:23 , [31merror[39m , [31m[b19f9e03-4387-4f40-8db1-ed32be60f479] Completed -> PUT /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f | Error (500) | 3ms[39m
+2025-10-28 07:06:08 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 07:06:09 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 07:06:09 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-28 07:06:22 , [35mhttp[39m , [35m[4091fc9d-c6ab-4c97-a93b-520757afc04f] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 07:06:22 , [35mhttp[39m , [35m[4091fc9d-c6ab-4c97-a93b-520757afc04f] Completed -> POST /api/users/login | Success (200) | 201ms[39m
+2025-10-28 07:06:39 , [35mhttp[39m , [35m[f8b94c97-24fe-412d-864e-31a60c3f4ca4] incoming -> PUT , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f from ::1[39m
+2025-10-28 07:06:39 , [35mhttp[39m , [35m[f8b94c97-24fe-412d-864e-31a60c3f4ca4] Completed -> PUT /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f | Success (200) | 58ms[39m
+2025-10-28 07:06:53 , [35mhttp[39m , [35m[a2af70fc-9165-4f81-97d4-e9ea41fc8c0b] incoming -> GET , /api/users/ from ::1[39m
+2025-10-28 07:06:53 , [35mhttp[39m , [35m[a2af70fc-9165-4f81-97d4-e9ea41fc8c0b] Completed -> GET /api/users/ | Success (200) | 128ms[39m
+2025-10-28 07:07:14 , [35mhttp[39m , [35m[98b69ea2-b5da-455c-a24e-c2a0e0ca4b69] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 07:07:14 , [35mhttp[39m , [35m[98b69ea2-b5da-455c-a24e-c2a0e0ca4b69] Completed -> POST /api/users/login | Success (200) | 194ms[39m
+2025-10-28 07:07:24 , [35mhttp[39m , [35m[54177e3b-de4a-47cc-bf96-91c8eb63174d] incoming -> PUT , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f from ::1[39m
+2025-10-28 07:07:24 , [31merror[39m , [31m54177e3b-de4a-47cc-bf96-91c8eb63174d Unauthorized , PUT , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f[39m
+[31mError: Unauthorized[39m
+[31m    at file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/post.controller.js:46:17[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+2025-10-28 07:07:24 , [31merror[39m , [31m[54177e3b-de4a-47cc-bf96-91c8eb63174d] Completed -> PUT /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f | Error (403) | 6ms[39m
+2025-10-28 07:11:37 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 07:11:37 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 07:12:35 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 07:12:35 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 07:12:39 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 07:12:39 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 07:12:40 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 07:13:28 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 07:13:28 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 07:13:31 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-28 07:13:31 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-28 07:13:32 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-28 07:13:44 , [35mhttp[39m , [35m[aa8a713c-0065-4119-ac64-1e8edf5dd6d0] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 07:13:44 , [31merror[39m , [31m[aa8a713c-0065-4119-ac64-1e8edf5dd6d0] Completed -> POST /api/users/login | Error (400) | 132ms[39m
+2025-10-28 07:13:49 , [35mhttp[39m , [35m[5d057e70-c60f-4f95-8850-47532865689d] incoming -> POST , /api/users/login from ::1[39m
+2025-10-28 07:13:49 , [35mhttp[39m , [35m[5d057e70-c60f-4f95-8850-47532865689d] Completed -> POST /api/users/login | Success (200) | 77ms[39m
+2025-10-28 07:14:22 , [35mhttp[39m , [35m[6696fe9a-afec-4382-8d14-d965cda2660e] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-28 07:14:23 , [35mhttp[39m , [35m[6696fe9a-afec-4382-8d14-d965cda2660e] Completed -> GET /api/posts/ | Success (200) | 145ms[39m
+2025-10-28 07:14:38 , [35mhttp[39m , [35m[00f779e5-47ca-4bda-9add-6cde13907c94] incoming -> DELETE , /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f from ::1[39m
+2025-10-28 07:14:38 , [35mhttp[39m , [35m[00f779e5-47ca-4bda-9add-6cde13907c94] Completed -> DELETE /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f | Success (200) | 153ms[39m
+2025-10-28 07:14:44 , [35mhttp[39m , [35m[ee032fc9-89e0-4e48-b339-4a390d62deb7] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-28 07:14:44 , [35mhttp[39m , [35m[ee032fc9-89e0-4e48-b339-4a390d62deb7] Completed -> GET /api/posts/ | Success (200) | 2ms[39m

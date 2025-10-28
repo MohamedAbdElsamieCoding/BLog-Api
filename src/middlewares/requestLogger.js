@@ -1,6 +1,8 @@
 import onFinished from "on-finished";
 import logger from "../config/logger.js";
 import httpStatusText from "../utils/httpStatusText.js";
+import { randomUUID } from "crypto";
+
 export const requestLogger = (req, res, next) => {
   //creating id for any user
   const requestId = randomUUID();
