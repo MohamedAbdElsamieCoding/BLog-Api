@@ -5,14 +5,26 @@ import Comment from "./comment.model.js";
 import logger from "../config/logger.js";
 
 const initAssociation = () => {
-  User.hasMany(Post, { foreignKey: "userId", onDelete: "CASCADE" });
-  Post.belongsTo(User, { foreignKey: "userId" });
+  User.hasMany(Post, {
+    foreignKey: "userId",
+    sourceKey: "id",
+    onDelete: "CASCADE",
+  });
+  Post.belongsTo(User, { foreignKey: "userId", targetKey: "id" });
 
-  User.hasMany(Comment, { foreignKey: "userId", onDelete: "CASCADE" });
-  Comment.belongsTo(User, { foreignKey: "userId" });
+  User.hasMany(Comment, {
+    foreignKey: "userId",
+    sourceKey: "id",
+    onDelete: "CASCADE",
+  });
+  Comment.belongsTo(User, { foreignKey: "userId", targetKey: "id" });
 
-  Post.hasMany(Comment, { foreignKey: "postId", onDelete: "CASCADE" });
-  Comment.belongsTo(Post, { foreignKey: "postId" });
+  Post.hasMany(Comment, {
+    foreignKey: "postId",
+    sourceKey: "id",
+    onDelete: "CASCADE",
+  });
+  Comment.belongsTo(Post, { foreignKey: "postId", targetKey: "id" });
 };
 
 initAssociation();

@@ -15,14 +15,30 @@ const Comment = sequelize.define(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    userId: {
+      type: DataTypes.UUID,
+      allowNull: false,
+      references: {
+        model: "Users",
+        key: "id",
+      },
+    },
   },
   { timestamps: true }
 );
 
-User.hasMany(Comment, { foreignKey: "userId", onDelete: "CASCADE" });
-Comment.belongsTo(User, { foreignKey: "userId" });
+User.hasMany(Comment, {
+  foreignKey: "userId",
+  sourceKey: "id",
+  onDelete: "CASCADE",
+});
+Comment.belongsTo(User, { foreignKey: "userId", targetKey: "id" });
 
-Post.hasMany(Comment, { foreignKey: "postId", onDelete: "CASCADE" });
-Comment.belongsTo(Post, { foreignKey: "postId" });
+Post.hasMany(Comment, {
+  foreignKey: "postId",
+  sourceKey: "id",
+  onDelete: "CASCADE",
+});
+Comment.belongsTo(Post, { foreignKey: "postId", targetKey: "id" });
 
 export default Comment;

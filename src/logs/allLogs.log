@@ -885,3 +885,294 @@
 2025-10-28 07:14:38 , [35mhttp[39m , [35m[00f779e5-47ca-4bda-9add-6cde13907c94] Completed -> DELETE /api/posts/d367b1ff-c1c2-4392-bc40-f7130edec38f | Success (200) | 153ms[39m
 2025-10-28 07:14:44 , [35mhttp[39m , [35m[ee032fc9-89e0-4e48-b339-4a390d62deb7] incoming -> GET , /api/posts/ from ::1[39m
 2025-10-28 07:14:44 , [35mhttp[39m , [35m[ee032fc9-89e0-4e48-b339-4a390d62deb7] Completed -> GET /api/posts/ | Success (200) | 2ms[39m
+2025-10-29 05:43:16 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 05:43:16 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 05:43:17 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-29 05:43:20 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 05:43:20 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 05:43:21 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-29 05:47:16 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 05:47:17 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 05:47:17 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-29 05:48:51 , [35mhttp[39m , [35m[386de209-bf66-4f73-830a-4732a07e16ef] incoming -> POST , /api/users/login from ::1[39m
+2025-10-29 05:48:51 , [35mhttp[39m , [35m[386de209-bf66-4f73-830a-4732a07e16ef] Completed -> POST /api/users/login | Success (200) | 311ms[39m
+2025-10-29 05:51:13 , [35mhttp[39m , [35m[e1a8fe1f-4fa1-46e0-8577-3dde68d0c670] incoming -> POST , /api/comment/ from ::1[39m
+2025-10-29 05:51:13 , [31merror[39m , [31m[e1a8fe1f-4fa1-46e0-8577-3dde68d0c670] Completed -> POST /api/comment/ | Error (404) | 1ms[39m
+2025-10-29 05:51:21 , [35mhttp[39m , [35m[bdcb008f-518d-4176-960b-1bf60d33e920] incoming -> POST , /api/comment/ from ::1[39m
+2025-10-29 05:51:21 , [31merror[39m , [31m[bdcb008f-518d-4176-960b-1bf60d33e920] Completed -> POST /api/comment/ | Error (404) | 2ms[39m
+2025-10-29 05:51:24 , [35mhttp[39m , [35m[26846277-520d-468b-85f0-333f26582a1b] incoming -> POST , /api/users/login from ::1[39m
+2025-10-29 05:51:25 , [35mhttp[39m , [35m[26846277-520d-468b-85f0-333f26582a1b] Completed -> POST /api/users/login | Success (200) | 306ms[39m
+2025-10-29 05:51:46 , [35mhttp[39m , [35m[ce5464cf-333e-4933-b1c0-2915f0fa9707] incoming -> POST , /api/comment/ from ::1[39m
+2025-10-29 05:51:46 , [31merror[39m , [31m[ce5464cf-333e-4933-b1c0-2915f0fa9707] Completed -> POST /api/comment/ | Error (404) | 1ms[39m
+2025-10-29 05:51:47 , [35mhttp[39m , [35m[facdbd81-e791-41e2-ac34-372b62aecdab] incoming -> POST , /api/comment/ from ::1[39m
+2025-10-29 05:51:47 , [31merror[39m , [31m[facdbd81-e791-41e2-ac34-372b62aecdab] Completed -> POST /api/comment/ | Error (404) | 1ms[39m
+2025-10-29 05:54:20 , [35mhttp[39m , [35m[88f96671-10b8-4246-a250-aaea8ed2fa87] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 05:54:21 , [31merror[39m , [31m88f96671-10b8-4246-a250-aaea8ed2fa87 operator does not exist: uuid = integer , POST , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Post.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Post.findOne (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Post.findByPk (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:13:16[39m
+2025-10-29 05:54:21 , [31merror[39m , [31m[88f96671-10b8-4246-a250-aaea8ed2fa87] Completed -> POST /api/comments/ | Error (500) | 146ms[39m
+2025-10-29 05:55:49 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 05:55:49 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 05:55:50 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-29 05:55:53 , [35mhttp[39m , [35m[705bb339-e06f-4c66-b083-e3f940abb855] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 05:55:53 , [31merror[39m , [31m705bb339-e06f-4c66-b083-e3f940abb855 operator does not exist: uuid = integer , POST , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Post.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Post.findOne (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Post.findByPk (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:13:16[39m
+2025-10-29 05:55:53 , [31merror[39m , [31m[705bb339-e06f-4c66-b083-e3f940abb855] Completed -> POST /api/comments/ | Error (500) | 15ms[39m
+2025-10-29 05:55:54 , [35mhttp[39m , [35m[ba466bf3-b15e-44ad-97be-cb7bcd7bb310] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 05:55:54 , [31merror[39m , [31mba466bf3-b15e-44ad-97be-cb7bcd7bb310 operator does not exist: uuid = integer , POST , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Post.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Post.findOne (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Post.findByPk (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:13:16[39m
+2025-10-29 05:55:54 , [31merror[39m , [31m[ba466bf3-b15e-44ad-97be-cb7bcd7bb310] Completed -> POST /api/comments/ | Error (500) | 4ms[39m
+2025-10-29 05:55:55 , [35mhttp[39m , [35m[67a1ffba-bbcc-4259-b24b-66f6b1418825] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 05:55:55 , [31merror[39m , [31m67a1ffba-bbcc-4259-b24b-66f6b1418825 operator does not exist: uuid = integer , POST , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Post.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Post.findOne (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Post.findByPk (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:13:16[39m
+2025-10-29 05:55:55 , [31merror[39m , [31m[67a1ffba-bbcc-4259-b24b-66f6b1418825] Completed -> POST /api/comments/ | Error (500) | 4ms[39m
+2025-10-29 05:56:02 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 05:56:02 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 05:56:05 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 05:56:05 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 05:56:07 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 05:56:07 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 05:56:08 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-29 05:56:12 , [35mhttp[39m , [35m[0e2da075-e402-4931-a238-6349e5ab1c43] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 05:56:12 , [31merror[39m , [31m0e2da075-e402-4931-a238-6349e5ab1c43 operator does not exist: uuid = integer , POST , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Post.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Post.findOne (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Post.findByPk (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:13:16[39m
+2025-10-29 05:56:12 , [31merror[39m , [31m[0e2da075-e402-4931-a238-6349e5ab1c43] Completed -> POST /api/comments/ | Error (500) | 15ms[39m
+2025-10-29 05:56:13 , [35mhttp[39m , [35m[d11e0879-5963-45e8-8dda-3920faca25af] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 05:56:13 , [31merror[39m , [31md11e0879-5963-45e8-8dda-3920faca25af operator does not exist: uuid = integer , POST , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Post.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Post.findOne (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Post.findByPk (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:13:16[39m
+2025-10-29 05:56:13 , [31merror[39m , [31m[d11e0879-5963-45e8-8dda-3920faca25af] Completed -> POST /api/comments/ | Error (500) | 5ms[39m
+2025-10-29 05:56:16 , [35mhttp[39m , [35m[e63b6084-d55f-4abb-bfb1-b4c6164b5149] incoming -> POST , /api/users/login from ::1[39m
+2025-10-29 05:56:16 , [35mhttp[39m , [35m[e63b6084-d55f-4abb-bfb1-b4c6164b5149] Completed -> POST /api/users/login | Success (200) | 80ms[39m
+2025-10-29 05:56:29 , [35mhttp[39m , [35m[df0f357b-dfdf-4013-a799-d61372c3bfe6] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 05:56:29 , [31merror[39m , [31mdf0f357b-dfdf-4013-a799-d61372c3bfe6 operator does not exist: uuid = integer , POST , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Post.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Post.findOne (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Post.findByPk (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:13:16[39m
+2025-10-29 05:56:29 , [31merror[39m , [31m[df0f357b-dfdf-4013-a799-d61372c3bfe6] Completed -> POST /api/comments/ | Error (500) | 144ms[39m
+2025-10-29 05:58:57 , [35mhttp[39m , [35m[8cf012eb-7a4d-4520-ac4d-fc13820da737] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-29 05:58:57 , [35mhttp[39m , [35m[8cf012eb-7a4d-4520-ac4d-fc13820da737] Completed -> GET /api/posts/ | Success (200) | 147ms[39m
+2025-10-29 05:59:19 , [35mhttp[39m , [35m[fe7005b2-246e-4006-8692-97be840d85ea] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 05:59:19 , [35mhttp[39m , [35m[fe7005b2-246e-4006-8692-97be840d85ea] Completed -> POST /api/comments/ | Success (201) | 248ms[39m
+2025-10-29 05:59:34 , [35mhttp[39m , [35m[ba03941d-5880-4ae7-95eb-310ed37ceeb0] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 05:59:34 , [31merror[39m , [31mba03941d-5880-4ae7-95eb-310ed37ceeb0 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 05:59:34 , [31merror[39m , [31m[ba03941d-5880-4ae7-95eb-310ed37ceeb0] Completed -> GET /api/comments/ | Error (500) | 50ms[39m
+2025-10-29 06:01:31 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:01:31 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:11:14 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:11:14 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:11:16 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:11:17 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:11:17 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-29 06:11:25 , [35mhttp[39m , [35m[b5f748c5-9b17-4df0-9410-6e5334f8e7bf] incoming -> POST , /api/users/login from ::1[39m
+2025-10-29 06:11:25 , [35mhttp[39m , [35m[b5f748c5-9b17-4df0-9410-6e5334f8e7bf] Completed -> POST /api/users/login | Success (200) | 86ms[39m
+2025-10-29 06:11:41 , [35mhttp[39m , [35m[32dc64a0-684e-4c90-9914-7e61c70606ee] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-29 06:11:41 , [35mhttp[39m , [35m[32dc64a0-684e-4c90-9914-7e61c70606ee] Completed -> GET /api/posts/ | Success (200) | 47ms[39m
+2025-10-29 06:12:00 , [35mhttp[39m , [35m[055bfdd5-1dfa-42ac-ae31-da857b7ed723] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 06:12:00 , [35mhttp[39m , [35m[055bfdd5-1dfa-42ac-ae31-da857b7ed723] Completed -> POST /api/comments/ | Success (201) | 153ms[39m
+2025-10-29 06:12:07 , [35mhttp[39m , [35m[ea282d16-e938-4212-a8ab-ed2eaa508eef] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:12:07 , [31merror[39m , [31mea282d16-e938-4212-a8ab-ed2eaa508eef column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:12:07 , [31merror[39m , [31m[ea282d16-e938-4212-a8ab-ed2eaa508eef] Completed -> GET /api/comments/ | Error (500) | 7ms[39m
+2025-10-29 06:12:08 , [35mhttp[39m , [35m[aa8f2f41-b7d9-4ee7-af9f-e8e616684467] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:12:08 , [31merror[39m , [31maa8f2f41-b7d9-4ee7-af9f-e8e616684467 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:12:08 , [31merror[39m , [31m[aa8f2f41-b7d9-4ee7-af9f-e8e616684467] Completed -> GET /api/comments/ | Error (500) | 4ms[39m
+2025-10-29 06:12:09 , [35mhttp[39m , [35m[45809089-82a5-427c-8547-3b5fad98e500] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:12:09 , [31merror[39m , [31m45809089-82a5-427c-8547-3b5fad98e500 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:12:09 , [31merror[39m , [31m[45809089-82a5-427c-8547-3b5fad98e500] Completed -> GET /api/comments/ | Error (500) | 2ms[39m
+2025-10-29 06:12:13 , [35mhttp[39m , [35m[338c867e-da8b-4e6c-af35-b05c830a9474] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:12:13 , [31merror[39m , [31m338c867e-da8b-4e6c-af35-b05c830a9474 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:12:13 , [31merror[39m , [31m[338c867e-da8b-4e6c-af35-b05c830a9474] Completed -> GET /api/comments/ | Error (500) | 4ms[39m
+2025-10-29 06:12:14 , [35mhttp[39m , [35m[57084fe5-497a-4efc-8971-84c04b166610] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:12:14 , [31merror[39m , [31m57084fe5-497a-4efc-8971-84c04b166610 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:12:14 , [31merror[39m , [31m[57084fe5-497a-4efc-8971-84c04b166610] Completed -> GET /api/comments/ | Error (500) | 4ms[39m
+2025-10-29 06:12:23 , [35mhttp[39m , [35m[c7134693-1393-46b4-a684-74630be22fa5] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:12:23 , [31merror[39m , [31mc7134693-1393-46b4-a684-74630be22fa5 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:12:23 , [31merror[39m , [31m[c7134693-1393-46b4-a684-74630be22fa5] Completed -> GET /api/comments/ | Error (500) | 3ms[39m
+2025-10-29 06:12:24 , [35mhttp[39m , [35m[5dd89a7d-41c3-4b33-b9b7-e65e1786d2a4] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:12:24 , [31merror[39m , [31m5dd89a7d-41c3-4b33-b9b7-e65e1786d2a4 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:12:24 , [31merror[39m , [31m[5dd89a7d-41c3-4b33-b9b7-e65e1786d2a4] Completed -> GET /api/comments/ | Error (500) | 4ms[39m
+2025-10-29 06:16:13 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:16:13 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:16:14 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-29 06:16:26 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:16:26 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:16:31 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:16:31 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:16:36 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:16:36 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:16:37 , [31merror[39m , [31mError syncing models SequelizeDatabaseError: relation "User" does not exist[39m
+2025-10-29 06:16:44 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:16:44 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:16:45 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-29 06:17:48 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:17:48 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:17:49 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-29 06:18:25 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:18:25 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:18:28 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:18:28 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:18:32 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:18:33 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:18:34 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-29 06:18:50 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:18:50 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:18:51 , [31merror[39m , [31mError syncing models SequelizeUnknownConstraintError: Unknown constraint error[39m
+2025-10-29 06:19:00 , [35mhttp[39m , [35m[637287d0-c991-437e-9c48-a2dd91326d55] incoming -> POST , /api/users/login from ::1[39m
+2025-10-29 06:19:00 , [35mhttp[39m , [35m[637287d0-c991-437e-9c48-a2dd91326d55] Completed -> POST /api/users/login | Success (200) | 109ms[39m
+2025-10-29 06:19:11 , [35mhttp[39m , [35m[5acd94bd-4fc4-4eba-88fb-82ba30731e17] incoming -> GET , /api/posts/ from ::1[39m
+2025-10-29 06:19:11 , [35mhttp[39m , [35m[5acd94bd-4fc4-4eba-88fb-82ba30731e17] Completed -> GET /api/posts/ | Success (200) | 57ms[39m
+2025-10-29 06:19:35 , [35mhttp[39m , [35m[9bf6fd71-c8da-48ac-9e08-82b64b66c030] incoming -> POST , /api/comments/ from ::1[39m
+2025-10-29 06:19:36 , [35mhttp[39m , [35m[9bf6fd71-c8da-48ac-9e08-82b64b66c030] Completed -> POST /api/comments/ | Success (201) | 174ms[39m
+2025-10-29 06:19:39 , [35mhttp[39m , [35m[845ad0cd-fce6-4338-829f-a718ec6c21a9] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:19:39 , [31merror[39m , [31m845ad0cd-fce6-4338-829f-a718ec6c21a9 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:19:39 , [31merror[39m , [31m[845ad0cd-fce6-4338-829f-a718ec6c21a9] Completed -> GET /api/comments/ | Error (500) | 8ms[39m
+2025-10-29 06:19:40 , [35mhttp[39m , [35m[24bc6c4b-a0df-4727-94e0-33d6bd515185] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:19:40 , [31merror[39m , [31m24bc6c4b-a0df-4727-94e0-33d6bd515185 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:19:40 , [31merror[39m , [31m[24bc6c4b-a0df-4727-94e0-33d6bd515185] Completed -> GET /api/comments/ | Error (500) | 6ms[39m
+2025-10-29 06:19:42 , [35mhttp[39m , [35m[9a89f4d3-773e-4562-b13a-edfc512793b6] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:19:42 , [31merror[39m , [31m9a89f4d3-773e-4562-b13a-edfc512793b6 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:19:42 , [31merror[39m , [31m[9a89f4d3-773e-4562-b13a-edfc512793b6] Completed -> GET /api/comments/ | Error (500) | 4ms[39m
+2025-10-29 06:19:44 , [35mhttp[39m , [35m[46a3d817-ab15-4090-bff3-c8ddcdc74d10] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:19:44 , [31merror[39m , [31m46a3d817-ab15-4090-bff3-c8ddcdc74d10 column User.userId does not exist , GET , /api/comments/[39m
+[31mError[39m
+[31m    at Query.run (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async PostgresQueryInterface.select (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Comment.findAll (D:\NodeJS Course\learn\BlogApi\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///D:/NodeJS%20Course/learn/BlogApi/src/controllers/comment.controller.js:27:20[39m
+2025-10-29 06:19:44 , [31merror[39m , [31m[46a3d817-ab15-4090-bff3-c8ddcdc74d10] Completed -> GET /api/comments/ | Error (500) | 4ms[39m
+2025-10-29 06:21:37 , [32minfo[39m , [32mServer is running on port 5000[39m
+2025-10-29 06:21:37 , [32minfo[39m , [32mPostgreSQL connected successfully[39m
+2025-10-29 06:21:38 , [32minfo[39m , [32mAll models synced successfully[39m
+2025-10-29 06:21:41 , [35mhttp[39m , [35m[ef488bee-43f3-4588-b471-105f108366b3] incoming -> GET , /api/comments/ from ::1[39m
+2025-10-29 06:21:41 , [35mhttp[39m , [35m[ef488bee-43f3-4588-b471-105f108366b3] Completed -> GET /api/comments/ | Success (200) | 24ms[39m
