@@ -1,68 +1,51 @@
-import { User } from "../models/index.js";
 import asyncWrapper from "../middlewares/asyncWrapper.js";
-import logger from "../config/logger.js";
-import bcrypt from "bcrypt";
-import generateJwt from "../utils/generateJWT.js";
+import {
+  registerService,
+  loginService,
+  getAllUsersService,
+  getSingleUserService,
+  deleteUserService,
+} from "../services/user.service.js";
+import httpStatusText from "../utils/httpStatusText.js";
 
-export const register = asyncWrapper(async (req, res) => {
+// Controller to handle user registration
+export const register = asyncWrapper(async (req, res, next) => {
   const { name, email, password, role } = req.body;
-  if (!name || !email || !password || !role)
-    return res.status(400).json({ message: "Fields are required" });
-  const existingUser = await User.findOne({ where: { email } });
-  if (existingUser)
-    return res.status(400).json({ message: "Email already exists" });
-  const hashedPassword = await bcrypt.hash(password, 10);
-  const newUser = await User.create({
-    name,
-    email,
-    password: hashedPassword,
-    role: role || "user",
-  });
-  res.status(201).json({ message: "user created successfully", newUser });
+  const newUser = await registerService(name, email, password, role);
+
+  res.status(201).json({ status: httpStatusText.SUCCESS, data: newUser });
 });
 
-export const login = asyncWrapper(async (req, res) => {
+// Controller to handle user login
+export const login = asyncWrapper(async (req, res, next) => {
   const { email, password } = req.body;
-  const user = await User.findOne({ where: { email } });
-  if (!user)
-    return res.status(400).json({ message: "Invalid email or password" });
-  const matchedPassword = await bcrypt.compare(password, user.password);
-  if (email && matchedPassword) {
-    const token = generateJwt({
-      role: user.role,
-      id: user.id,
-    });
-    res.status(200).json({ message: "Login successful", token });
-  } else {
-    res.status(400).json({ message: "Invalid email or password" });
-  }
+  const token = await loginService(email, password);
+
+  res.status(200).json({ status: httpStatusText.SUCCESS, data: token });
 });
 
-export const getAllUsers = asyncWrapper(async (req, res) => {
-  const allUsers = await User.findAll({
-    attributes: { exclude: ["password"] },
-  });
-  if (!allUsers) {
-    res.status(404).json({ message: "No users found" });
-  }
-  res.status(200).json({ data: allUsers });
+// Controller to get all users
+export const getAllUsers = asyncWrapper(async (req, res, next) => {
+  const users = await getAllUsersService();
+
+  res.status(200).json({ status: httpStatusText.SUCCESS, data: users });
 });
 
-export const getSingleUser = asyncWrapper(async (req, res) => {
+// Controller to get a single user by ID
+export const getSingleUser = asyncWrapper(async (req, res, next) => {
   const { id } = req.params;
-  const user = await User.findByPk(id, {
-    attributes: { exclude: ["password"] },
-  });
-  if (!user) return res.status(404).json({ message: "User not found" });
-  res.status(200).json({ data: user });
+  const user = await getSingleUserService(id);
+
+  res.status(200).json({ status: httpStatusText.SUCCESS, data: user });
 });
 
-export const deleteUser = asyncWrapper(async (req, res) => {
+// Controller to delete a user by ID
+export const deleteUser = asyncWrapper(async (req, res, next) => {
   const { id } = req.params;
-  const deleted = await User.destroy({ where: { id } });
-  if (!deleted)
-    return res
-      .status(404)
-      .json({ message: "User not found or already deleted" });
-  res.status(200).json({ message: "User deleted successfully" });
+  await deleteUserService(id);
+
+  res.status(200).json({
+    status: httpStatusText.SUCCESS,
+    data: "User deleted successfully",
+  });
 });
