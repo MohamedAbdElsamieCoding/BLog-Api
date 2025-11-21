@@ -1,2 +1,9 @@
+# Environment variables
 .env
+
+# Module directories
 node_modules/
+
+
+src/logs/
+*.log
